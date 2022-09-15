@@ -1,0 +1,156 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  border: 5px solid #4f360d;
+  margin: 0;
+
+  background-image:url("https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_960_720.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:black;
+}
+
+
+
+.nav-bar{
+  top:0.5rem;
+  left:33rem;
+  display:flex;
+  justify-content:space-between;
+  
+}
+
+h1 { 
+  padding-left:28rem;
+  color:white;
+  margin-top:4rem;
+
+  font-size:2.5rem;
+ 
+}
+
+.small-picture{
+  width:120px;
+  height:120px;
+  border-radius:60px;
+  position:absolute;
+  left:6rem;
+  top:4rem;
+}
+
+.container{
+  width: 200%;
+  margin: 3.5em auto 0 0.8em;
+}
+
+header{
+  background-color: #7e3082;
+  width: 48%;
+  border-radius: 10px;
+}
+
+.my-picture:hover{
+  transform: perspective(200px) rotateY(2deg);
+  transform-origin: 0 0 ;
+  color:black;
+  
+}
+
+
+.first-p:hover{
+  transform: perspective(200px) rotateY(2deg);
+  transform-origin: 0 0 ;
+  color:black;
+  
+}
+
+
+
+
+.first-p{
+  color:black;
+  position:absolute;
+  right:1rem;
+  width:50rem;
+  
+}
+
+p{
+  font-size:1.5rem;
+  line-height:1.5;
+  padding:40px;
+}
+/* don't edit this */
+
+
+img {
+  width:400px;
+  height:500px;
+  margin:30px;
+
+  position:absolute;
+right:0rem;
+}
+
+li {
+
+  list-style:none;
+
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: black;
+}
+.footer{
+  font-size:1.4rem;
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+.my-picture{
+  color:white;
+  text-align:left;
+  position: absolute;
+  top:100rem;
+  width:40rem;
+  
+
+}
+
+.picture-mine{
+  position:absolute;
+  top:95em;
+}
+
+.video-first{
+height:950px;
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
